@@ -10,14 +10,14 @@ Olá, bem-vindo ao meu repositório para exercícios. Todo conteúdo que você e
 
 # Branching
 - Master
-	> São atualizadas **semanalmente**.
+	> É atualizada **semanalmente**.
 - As demais 
 	> São atualizadas até **1 dia** depois da aula.
 
 
 # Diretórios e Arquivos
 
-Todos os diretórios/branches seguem um **padrão** de formatação, você pode encontra a pasta com o nome da matéria e dentro desse diretorio você encontra um arquivo *markdown* com as informações correspondentes a matéria e anotações ou duvidas correspondentes. As pastas dentro desse diretorio são separadas por categoria ou ferramenta sendo ultilizada.
+Todos os diretórios/branches seguem um **padrão** de formatação, você pode encontra a pasta com o nome da matéria e dentro desse diretorio você encontra um arquivo *markdown* com informações correspondentes a matéria, anotações, comandos e lembretes. As pastas dentro desse diretorio são separadas por categoria ou ferramenta sendo ultilizada.
 
 ## Arquivos
 
@@ -25,5 +25,5 @@ Nem todos os arquivos desse repositório são necessariamente executáveis, algu
 
 ## Git ignore
 
-Arquivos **autogerados** pelo OS são monitorados pelo *Git*.
+Arquivos **autogerados** pelo OS não são monitorados pelo *Git*.
 
