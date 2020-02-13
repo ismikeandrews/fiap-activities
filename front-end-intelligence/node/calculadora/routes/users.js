@@ -244,7 +244,6 @@ router.get('/:id', function(req, res, next) {
   res.status(200).json(pegarUsuarioPorId(id)) 
     
   function pegarUsuarioPorId(id){
-
     var usuariosEncontrado = usuarios.find((usuario) =>{
       return  usuario.id == id
     })
@@ -256,15 +255,13 @@ router.get('/:id', function(req, res, next) {
     }
 
     return usuariosEncontrado
-
   }
   } catch (error) {
     console.log('Algo está errado', error)
-        res.status(404).json({
-            message: error
-        }) 
+      res.status(404).json({
+          message: error
+      }) 
   }
-  
 });
 
 module.exports = router;
