@@ -1,2 +1,10 @@
-# Materia de DIGITAL EXPERIENCE PLATAFORM
-## Professor: Andrey Araujo Masiero
+# Digital Experience Plataform
+
+**Professor:** Andrey Araujo Masiero
+**GitHub:** *https://github.com/amasiero*
+
+## Grade curricular
+- PHP
+- Node JS
+- Mongo DB
+
