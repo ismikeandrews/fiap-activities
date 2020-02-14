@@ -236,7 +236,7 @@ const usuarios = [
   }
 ]
 
-/* GET users listing. */
+/* GET users by id. */
 router.get('/:id', function(req, res, next) {
   const id = req.params.id
 
@@ -262,6 +262,38 @@ router.get('/:id', function(req, res, next) {
           message: error
       }) 
   }
+});
+
+/* GET usuários by name. */
+router.get('/nome/:nome', function(req, res, next) {
+  // pegar parametro de nome do usuário
+  const nome = req.params.nome
+
+  try{
+    res.status(200)
+    .json(pegarUsuarioPeloNom(nome))
+  }
+  catch(err){
+    res.status(404)
+    .json({erro:err})
+  }
+
+  function pegarUsuarioPeloNom(nome){
+    console.log(nome)
+      var usuarioEncontrado =  usuarios.find((usuario)=>{
+        var userL = usuario.name.toLowerCase()
+        console.log("userL",userL)
+        if(userL.includes(nome.toLowerCase())){
+          return usuario
+        }else{
+          return 
+          //   throw "usário não encontrado"
+        }
+      })
+    
+      return usuarioEncontrado
+    }
+
 });
 
 module.exports = router;
