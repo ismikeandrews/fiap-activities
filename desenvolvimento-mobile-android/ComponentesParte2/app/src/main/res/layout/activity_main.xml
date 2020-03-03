@@ -1,0 +1,62 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Escolha sua pizza"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="24sp"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdgSabores">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calabresa"
+            android:id="@+id/rdbCalabresa"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mussarela"
+            android:id="@+id/rdbMussarela"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frango com Catupiry"
+            android:id="@+id/rdbCatupiry"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atum"
+            android:id="@+id/rdbAtum"/>
+    </RadioGroup>
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Com boarda recheada"
+            android:id="@+id/chkBordaReacheada"
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Realizar pedido"
+            android:onClick="realizarPedido"
+            android:layout_marginVertical="16dp"
+            />
+</LinearLayout>
