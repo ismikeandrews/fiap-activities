@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+           <h1>Bem vindo, <strong>{{formUser.value.nome}}</strong></h1>
+        </div>
+        <div class="col-6">
+            <code>{{ formUser.value | json}}</code>
+            <form [formGroup]="formUser">
+                <div class="form-group">
+                    <label for="id">
+                        ID
+                    </label>
+                    <input type="text" class="form-control" name="id" formControlName="_id">
+                    <label for="name">
+                        Nome
+                    </label>
+                    <input type="text" class="form-control" name="name" formControlName="nome">
+                    <label for="sobrenome">
+                        Sobrenome
+                    </label>
+                    <input type="text" class="form-control" name="sobrenome" formControlName="sobrenome">
+                    <label for="email">
+                        Email
+                    </label>
+                    <input type="text" class="form-control" name="email" formControlName="email">
+                    <label for="telefone">
+                        Telefone
+                    </label>
+                    <input type="text" class="form-control" name="telefone" formControlName="telefone">
+                    <div class="form-group mt-1">
+                        <button class="btn btn-success" (click)="saveUser()">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-6">
+
+        </div>
+    </div>
+</div>
