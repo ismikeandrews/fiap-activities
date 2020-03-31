@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="absolute_layout">Absolute Layout</string>
+    <string name="frame_layout">Frame Layout</string>
+    <string name="centralizado">centralizado</string>
+    <string name="fechar">fechar</string>
+    <string name="digite_seu_usuario">digite seu usuario</string>
+    <string name="digite_sua_senha">digite sua senha</string>
+    <string name="entrar">Entrar</string>
+</resources>
