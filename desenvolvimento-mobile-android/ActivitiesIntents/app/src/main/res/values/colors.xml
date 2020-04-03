@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8BC34A</color>
+    <color name="colorPrimaryDark">#4A8B00</color>
+    <color name="colorAccent">#000000</color>
+    <color name="salmao">#F44336</color>
+    <color name="branco">#fff</color>
+    <color name="form_area">#9FFF</color>
+</resources>
